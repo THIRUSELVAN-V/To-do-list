@@ -1,0 +1,98 @@
+
+.head{
+    text-align: center;
+    margin-top: 100px;
+    color:aqua;
+    margin-bottom: 80px;
+}
+body {
+background-color: #282727;
+}
+
+.taskbar {
+margin-left: 100px;
+max-width: 500px;
+margin-top: 120px;
+padding-top: 5px;
+padding-right: 0%;
+padding-left: 5px;
+padding-bottom: 5px;
+background-color: #918e8e;
+border-radius: 30px;
+box-shadow: 0 5px 10px white;
+}
+
+
+input[type="text"] {
+width: 75%;
+padding: 5px;
+margin-bottom: 5px;
+border: 2px solid #686767;
+border-radius: 30px;
+height: 30px;
+}
+
+button {
+padding: 10px 20px;
+background-color: #400740;
+box-shadow:  0 4px 6px  #8a068a ;
+color: white;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+margin-right: 5px;
+}
+
+#add:hover {
+background-color: #810584;
+}
+
+.Elements ul {
+margin: 20px auto;
+padding: 0px;
+max-width: 400px;
+background-color: white;
+list-style-type: none;
+border-radius: 70px;
+justify-content: space-around;
+}
+
+li {
+margin-bottom: 10px;
+padding: 10px;
+background-color: white;
+border-radius: 5px;
+display: block;
+
+}
+.edit-button{
+background: fixed;
+background-color: #033b77;
+margin-left: 90px;
+
+}
+.complete-button{
+background: fixed;
+background-color: rgb(5, 141, 5);
+}
+.delete-button{
+background: fixed;
+background-color: rgb(202, 11, 11);
+}
+
+
+.edit-button:hover{
+background-color: #057cfc;
+}
+.delete-button:hover{
+background-color: rgb(255, 4, 4);
+}
+.complete-button:hover{
+background-color: rgb(7, 234, 7);
+}
+
+.completed {
+text-decoration: line-through;
+color: #999;
+}
+
